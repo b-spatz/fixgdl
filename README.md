@@ -9,7 +9,7 @@ Listens on port 4000 and retransmits locally (127.0.0.1) on port 43211.
 * All other GDL90 messages are retransmitted without changes (Uplink for weather products, etc.)
 
 ### This is a work in progress; future ideas:
-* make listen/transmit port/IP and own_ship callsign (or ICAO mode-S?) configurable soon.
+* 0.0.6 makes listen/transmit port/IP and own_ship callsign (or ICAO mode-S?) configurable.
 * could add non-standard AHRS messages (stratux, iLevil) using Dynon protobuf or serial data as basis
   (but just an idea; I don't use/need a backup AHRS/PFD display).
 
