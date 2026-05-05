@@ -12,7 +12,7 @@ Listens on port 4000 and retransmits locally (127.0.0.1) on port 43211.  Start f
   * Listening Port (e.g. 4000) requires a restart; other params take effect immediately
 * Tested with EFBs on Android/Linux: fltplan.com Go, Avare, AvareX
 
-<img width="400" src="screenshot-0.0.6.png"> 
+<img width="400" src="screenshot-0.0.7.png"> 
 
 ### This is a work in progress; future ideas:
 * Should make callsign use ICAO mode-S, as more reliably unique...
