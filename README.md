@@ -1,8 +1,10 @@
 ## fixGDL
-A simple Android app to fix Dynon's HDX GDL90 non-compliance: missing Heartbeat and Ownship messages.  
+A simple Android app to fix Dynon's HDX GDL90 non-compliance: missing Heartbeat and Ownship messages.
+Makes HDX GL90 stream compl;iant and more usable by EFBs or oher GDL90 clients.
+
 USE AT YOUR OWN RISK, NOT SUITABLE FOR SAFETY-OF-FLIGHT USE.
 
-Listens on port 4000 and retransmits locally (127.0.0.1) on port 43211 (configurable).  Start fixGDL first, then EFB.  
+Listens on port 4000 and retransmits locally (127.0.0.1) on port 43211 (configurable).  Start fixGDL first, then EFB.
 (or start EFB first, then fixGDL: depends on EFB socket binding specifics SO_REUSE{ADDR,PORT})
 * Missing Heartbeat is transmitted (~ every second, e.g. 1 Hz)
 * Bogus Traffic report for your ship (e.g. N342ME) modified to Ownship and transmitted
@@ -15,6 +17,13 @@ Listens on port 4000 and retransmits locally (127.0.0.1) on port 43211 (configur
 * Tested with EFBs on Android/Linux: fltplan.com Go, Avare, AvareX, IFD440 (!)
 
 <img width="400" src="screenshot-0.0.7.png"> 
+
+### Block Diagram
+```
+   defective          corrected
+     GDL90              GDL90
+HDX --------> fixGDL ----------> EFB/client
+```
 
 ### This is a work in progress; future ideas:
 * Should make callsign use ICAO mode-S, as more reliably unique...
