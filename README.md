@@ -1,6 +1,6 @@
 ## fixGDL
 A simple Android app to fix Dynon's HDX GDL90 non-compliance: missing Heartbeat and Ownship messages.
-Makes HDX GL90 stream more standards compliant and thus more usable by EFBs or other GDL90 clients.
+Makes HDX GDL90 stream more standards compliant and thus more usable by EFBs or other GDL90 clients.
 
 USE AT YOUR OWN RISK, NOT SUITABLE FOR SAFETY-OF-FLIGHT USE.
 
