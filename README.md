@@ -33,5 +33,5 @@ Listens on port 4000 and retransmits locally (127.0.0.1) on port 43211 (configur
   (but just an idea; I don't use/need a backup AHRS/PFD display).
 
 #### See related/previous work:
-* [GDL90 Tester](https://github.com/b-spatz/gdl90) (including sepcifications, 
+* [GDL90 Tester](https://github.com/b-spatz/gdl90) (including GDL90 specifications, etc.)
 * Dynon issues reported: https://forum.flydynon.com/threads/ads-b-over-wifi.15650/page-2#post-92735
